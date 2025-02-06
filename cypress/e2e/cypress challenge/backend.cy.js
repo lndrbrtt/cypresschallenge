@@ -2,7 +2,7 @@ const Ajv = require("ajv");
 const avj = new Ajv();
 
 describe("Backend Validations", () => {
-  const baseUrl = "https://serverest.dev"; // Replace with your actual API base URL
+  const baseUrl = "https://serverest.dev"; 
   let userId;
 
   it("GET /usuarios - Listar usuários cadastrados", () => {
@@ -31,7 +31,7 @@ describe("Backend Validations", () => {
 
   it("DELETE /usuarios/{_id} - Excluir usuário", () => {
     cy.request("DELETE", `${baseUrl}/usuarios/${userId}`).then((response) => {
-      expect(response.status).to.eq(200); // Assuming 200 for successful deletion
+      expect(response.status).to.eq(200);
     });
   });
 });
