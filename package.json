@@ -1,0 +1,19 @@
+{
+  "name": "cypresschallenge",
+  "version": "1.0.0",
+  "description": "Cypress Challenge Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lndrbrtt/cypresschallenge.git"
+  },
+  "author": "Leandro Freitas Buratto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lndrbrtt/cypresschallenge/issues"
+  },
+  "homepage": "https://github.com/lndrbrtt/cypresschallenge#readme"
+}
