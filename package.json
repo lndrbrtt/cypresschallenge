@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lndrbrtt/cypresschallenge/issues"
   },
-  "homepage": "https://github.com/lndrbrtt/cypresschallenge#readme"
+  "homepage": "https://github.com/lndrbrtt/cypresschallenge#readme",
+  "devDependencies": {
+    "cypress": "^14.0.2"
+  }
 }
